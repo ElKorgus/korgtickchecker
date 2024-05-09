@@ -1,0 +1,84 @@
+*{
+    font-family:sans-serif;
+}
+
+.title-container{
+    width:100%;
+    display:grid;
+    text-align:center;
+    font-size:35px;
+    font-weight:600;
+}
+
+.text-field-container{
+    display: grid;
+    place-items: center;
+}
+
+.text-field{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 30px;
+    width:300px;
+    height:30px;
+    text-align: center;
+}
+
+.check-ticks{
+    margin-bottom:10px;
+    width:100px;
+    height:30px;
+    font-size:20px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.1s;
+}
+
+.check-ticks:hover{
+    scale: 110%;
+    transition:0.1s;
+}
+
+.check-ticks-container{
+    display: grid;
+    place-items: center;
+}
+
+.description-container{
+    text-align: center;
+    padding:10px;
+}
+
+.description{
+    font-size:16px;
+}
+
+.result-container{
+    text-align: center;
+    padding:10px;
+}
+
+.result{
+    font-size:16px;
+}
+
+.res1-container{
+    text-align: center;
+    padding:10px;
+}
+
+.res1{
+    font-size:16px;
+    color:whitesmoke
+}
+
+.res2-container{
+    text-align: center;
+    padding:10px;
+}
+
+.res2{
+    font-size:16px;
+    color:whitesmoke
+}
+
